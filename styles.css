@@ -17,10 +17,10 @@ html {
 
 body {
     font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
     line-height: 1.8;
-    color: #555;
+    color: #7A7A7A;
     background-color: #fff;
     min-height: 100%;
     display: flex;
@@ -31,42 +31,54 @@ body {
 
 /* Main content container */
 main {
-    max-width: 580px;
+    max-width: 680px;
     width: 100%;
+}
+
+/* Avatar image */
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    margin-bottom: 1.5em;
 }
 
 /* Greeting text */
 .greeting {
-    margin-bottom: 1.4em;
-    color: #333;
+    margin-bottom: 1em;
+    color: #7A7A7A;
 }
 
 /* Regular paragraphs */
 p {
-    margin-bottom: 1.4em;
-    color: #555;
+    margin-bottom: 1em;
+    color: #7A7A7A;
 }
 
 /* Navigation links */
 .links {
+    margin-top: 4em;
     margin-bottom: 0.5em;
 }
 
 .links a {
-    color: #2b9eb3;
+    color: #4397F7;
     text-decoration: none;
     margin-right: 1em;
     font-weight: 400;
+    font-size: 15px;
     transition: color 0.2s ease;
 }
 
 .links a:hover {
-    color: #1d7a8a;
+    color: #2a7ad4;
 }
 
 /* Work samples note */
 .work-samples {
-    font-size: 13px;
+    font-size: 15px;
     color: #999;
     margin-bottom: 0;
 }
