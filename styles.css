@@ -64,6 +64,7 @@ p {
 }
 
 .links a {
+    font-family: 'IBM Plex Mono', monospace;
     color: #4397F7;
     text-decoration: none;
     margin-right: 1em;
@@ -78,8 +79,10 @@ p {
 
 /* Work samples note */
 .work-samples {
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
-    color: #999;
+    font-weight: 300;
+    color: #7A7A7A;
     margin-bottom: 0;
 }
 
