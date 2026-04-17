@@ -63,18 +63,34 @@ p {
     margin-bottom: 0.5em;
 }
 
-.links a {
+/* CTAs: one class so Work / Email / LinkedIn always match */
+.links .cta {
     font-family: 'Inconsolata', monospace;
-    color: #4397F7;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: inherit;
+    text-transform: uppercase;
+    color: #000;
     text-decoration: none;
     margin-right: 1em;
-    font-weight: 400;
-    font-size: 15px;
-    transition: color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.links a:hover {
-    color: #2a7ad4;
+.links .cta:visited {
+    color: #000;
+}
+
+.links .cta:hover,
+.links .cta:active {
+    color: #000;
+    text-decoration: underline;
+}
+
+.links .cta:focus-visible {
+    color: #000;
+    text-decoration: underline;
+    outline: none;
 }
 
 /* Work samples note */
