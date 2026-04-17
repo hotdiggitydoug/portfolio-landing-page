@@ -1,6 +1,6 @@
 /* 
   Portfolio Styles
-  Clean, minimal design with Open Sans
+  Clean, minimal design with Inconsolata
 */
 
 /* Reset default browser styles */
@@ -16,12 +16,12 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 19px;
     font-weight: 300;
     line-height: 1.8;
-    color: #7A7A7A;
-    background-color: #fff;
+    color: #6B7280;
+    background-color: #F3F4F6;
     min-height: 100%;
     display: flex;
     align-items: center;
@@ -48,13 +48,13 @@ main {
 /* Greeting text */
 .greeting {
     margin-bottom: 1em;
-    color: #7A7A7A;
+    color: #6B7280;
 }
 
 /* Regular paragraphs */
 p {
     margin-bottom: 1em;
-    color: #7A7A7A;
+    color: #6B7280;
 }
 
 /* Navigation links */
@@ -64,7 +64,7 @@ p {
 }
 
 .links a {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inconsolata', monospace;
     color: #4397F7;
     text-decoration: none;
     margin-right: 1em;
@@ -79,10 +79,10 @@ p {
 
 /* Work samples note */
 .work-samples {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 15px;
     font-weight: 300;
-    color: #7A7A7A;
+    color: #6B7280;
     margin-bottom: 0;
 }
 
